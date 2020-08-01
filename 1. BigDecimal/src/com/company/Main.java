@@ -10,9 +10,14 @@ public class Main {
         double sum = value + value + value;
         System.out.println(sum);    //the answer is 0.036000000000000004 when it's supposed to be 0.036
 
+        //turn the value to an object
         var stringValue = Double.toString(value);
         var bigValue = new BigDecimal(stringValue);
         var bigSum = bigValue.add(bigValue).add(bigValue);
         System.out.println(bigSum);
+
+        //change the result to double
+        var result = bigSum.doubleValue();
+        System.out.println(result);
     }
 }
