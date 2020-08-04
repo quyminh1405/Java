@@ -1,2 +1,2 @@
 # Java
-My Java exercises.
+These are the codes relating to my Java tutorial on Lynda.
