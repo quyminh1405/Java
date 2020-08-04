@@ -1,2 +1,2 @@
 # Java
-These are the codes relating to my Java tutorial on Lynda.
+These are the codes regard my review on Lynda's Java tutorial.
