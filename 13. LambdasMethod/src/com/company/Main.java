@@ -37,6 +37,6 @@ public class Main {
         //Last test on BinaryOperator, takes 2 String values
         BinaryOperator<String> bruh = String::concat;
         System.out.println(bruh.apply("2 strings ", "are now 1, bitch"));
-
+        
     }
 }
