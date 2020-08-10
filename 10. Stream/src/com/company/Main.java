@@ -15,7 +15,6 @@ public class Main {
         books.stream().filter(book -> book.getAuthor().startsWith("J"))
                 .forEach(System.out::println);
 
-
         System.out.println();
         System.out.println("-------------------------------------------------");
         System.out.println();
