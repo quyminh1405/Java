@@ -12,9 +12,8 @@ public class Main {
         System.out.println("Authors' names start with J: ");
 
         ArrayList<Book> books = populateLibrary();
-        books.stream().filter(book -> {
-           return book.getAuthor().startsWith("J");
-        }).forEach(System.out::println);
+        books.stream().filter(book -> book.getAuthor().startsWith("J"))
+                .forEach(System.out::println);
 
 
         System.out.println();
@@ -23,11 +22,8 @@ public class Main {
 
 
         System.out.println("Authors' names starts with J and books' names start with E");
-        books.stream().filter(book -> {
-            return book.getAuthor().startsWith("J");
-        }).filter(book -> {
-            return book.getTitle().startsWith("E");
-        }).forEach(System.out::println);
+        books.stream().filter(book -> book.getAuthor().startsWith("J")).filter(book -> book.getTitle().startsWith("E"))
+                .forEach(System.out::println);
 
         /*Output:
         Authors' names starts with J with books' names start with E
