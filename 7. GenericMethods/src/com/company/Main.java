@@ -22,6 +22,7 @@ public class Main {
 	    List<Boolean> boolList = arrayToList(boolArray, new ArrayList<>());
 
 	    /*The <T> helps us with not getting ClassCastException when we apply the wrong type like this*/
+        //no se bao loi ngay khi ghi line nay vao, con neu k co dang <T> thi nos se k bao, den khi run moi bi Exception
         //List<String> stringList2 = arrayToList(intArray, new ArrayList<>());
     }
 }
