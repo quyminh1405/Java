@@ -1,0 +1,6 @@
+- A common type of input that needs to be read into a program is file inputs. In this example, I have a text file called
+'Example', which contains several lines of text. I want to be able to print out the file, line by line, in my program.
+One of the ways to do this is with a buffered reader. Buffered readers allow you to read lines of characters, and will
+work with multiple input encodings. So you can use them to read files in languages from all over the world. So, in my
+main method, the first thing I need to do is gut the file. So I will create a new file variable, and call it my file,
+and I will assign it to a new file variable. Parsing in the name of the file, which is 'Example.txt'.
